@@ -25,4 +25,7 @@ describe PrimeFactor do
     expect(prime_factor.factor_of(8)).to eq([2, 2, 2])
   end
 
+  it 'should return a hash with 3,3 for 9' do
+    expect(prime_factor.factor_of(9)).to eq([3, 3])
+  end
 end

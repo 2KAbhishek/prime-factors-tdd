@@ -4,7 +4,12 @@
 class PrimeFactor
   def factor_of(number)
     factors = []
-    factors.push(number) if number > 1
+    while number > 1
+      if (number % 2).zero?
+        factors.push(2)
+        number /= 2
+      end
+    end
     factors
   end
 end

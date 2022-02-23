@@ -34,7 +34,7 @@ prime-factors-tdd is solution for the Prime Factors Kata.
 ## Inspiration
 
 This was inspired by Robert Martin's [Three Laws of TDD talk](https://www.youtube.com/watch?v=qkblc5WRn-U).
-He gives the demo in Kotlin in the video, but I wanted to try it in Ruby.
+He gives the demo in Kotlin, but I wanted to try it in Ruby.
 
 ## Prerequisites
 

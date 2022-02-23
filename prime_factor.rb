@@ -4,14 +4,15 @@
 class PrimeFactor
   def factor_of(number)
     factors = []
+    divisor = 2
     while number > 1
-      if (number % 2).zero?
-        factors.push(2)
-        number /= 2
-      else
-        factors.push(number) && break
+      while (number % divisor).zero?
+        factors.push(divisor)
+        number /= divisor
       end
+      divisor += 1
     end
+    factors.push(number) if number > 1
     factors
   end
 end

@@ -8,4 +8,8 @@ describe PrimeFactor do
   it 'should return an empty hash for 1' do
     expect(prime_factor.factor_of(1)).to eq([])
   end
+
+  it 'should return a hash with 2 for 2' do
+    expect(prime_factor.factor_of(2)).to eq([2])
+  end
 end

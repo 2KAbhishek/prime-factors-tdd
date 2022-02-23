@@ -23,29 +23,24 @@
 <a href="https://github.com/2KAbhishek?tab=followers">
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
-
-<figure>
-  <img src= "https://raw.githubusercontent.com/2KAbhishek/prime-factors-tdd/main/images/screenshot.png" alt="prime-factors-tdd Demo" style="width:100%">
-  <br/>
-  <figcaption>prime-factors-tdd screenshot</figcaption>
-</figure>
+<h3>Learn TDD with Prime Factors 🧪❌</h3>
 
 </div>
 
 ## What is this
 
-prime-factors-tdd is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+prime-factors-tdd is solution for the Prime Factors Kata.
 
 ## Inspiration
 
-prime-factors-tdd was inspired by `<reason/idea>`.
+This was inspired by Robert Martin's [Three Laws of TDD talk](https://www.youtube.com/watch?v=qkblc5WRn-U).
+He gives the demo in Kotlin in the video, but I wanted to try it in Ruby.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `ruby` and `rspec`.
 
 ## Getting prime-factors-tdd
 
@@ -54,51 +49,34 @@ To install prime-factors-tdd, follow these steps:
 ```bash
 git clone https://github.com/2kabhishek/prime-factors-tdd
 cd prime-factors-tdd
-<install_command>
 ```
 
 ## Using prime-factors-tdd
 
-```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
-```
+To run the tests: `rspec spec/prime_factors_spec.rb`
+To edit the code: `$EDITOR prime_factors.rb`
 
 ## How it was built
 
-prime-factors-tdd was built using `<tech/library>`
+prime-factors-tdd was built using `ruby`
 
 ## Challenges faced
 
-While building prime-factors-tdd the main challenges were `<issue/difficulty>`
+Setting up rspec withhout rails and bundler was somewhat tricky. `rspec --init` did the work.
+Also `require_relative` was very handy for importing the source code.
 
 ## What I learned
 
-While building prime-factors-tdd I `<learned/accomplished>` about `<learning/accomplishment>`
+While building prime-factors-tdd I learned about:
+
+- Setting up rspec without rails and bundler.
+- Using `require_relative` to import the source code.
+- Some ruby best practices.
+- How good TDD is.
 
 ## What's next
 
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+Planning to do more katas like this.
 
 Hit the ⭐ button if you found this useful.
 

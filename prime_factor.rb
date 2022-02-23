@@ -8,6 +8,8 @@ class PrimeFactor
       if (number % 2).zero?
         factors.push(2)
         number /= 2
+      else
+        factors.push(number) && break
       end
     end
     factors

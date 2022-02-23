@@ -12,7 +12,6 @@ class PrimeFactor
       end
       divisor += 1
     end
-    factors.push(number) if number > 1
     factors
   end
 end
